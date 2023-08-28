@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape"
+    android:paddingBottom="4dp">
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserratblack"
+        android:id="@+id/namaItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:maxLines="1"/>
+    <TextView
+        android:fontFamily="@font/montserratblack"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/hargaItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp9999999"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:maxLines="1"
+        android:layout_below="@id/namaItem"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/hargaItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montseratsemi"
+        android:text="Menu that make you feel lovely"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="130dp"
+        android:text="add"/>
+
+
+
+</RelativeLayout>
